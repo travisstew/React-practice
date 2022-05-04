@@ -3,6 +3,8 @@ import BasicForms from "./BasicForms";
 import Effect from "./Effect";
 import ReactState from './ReactState';
 import Memo from "./Memo";
+import Ref from "./Ref";
+import Effect2 from "./Effect2";
 const App2 =()=>{
   const [count, setCount] = useState(4);
 
@@ -22,7 +24,7 @@ const incCount = ()=>{
       <button onClick={incCount}>+</button>
     </div> */}
     {/* <BasicForms /> */}
-   <Memo />
+    <Effect2 />
 
     </>
   )
