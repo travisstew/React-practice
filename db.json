@@ -1,0 +1,10 @@
+{
+  "posts":[
+  {  "id": "1",
+      "title":"use state hooks"
+  },
+  {  "id": "1",
+    "title":"use state hooks"
+}
+  ]
+}
